@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".button1").click(function(){
+				var texto = $(this).text();
+				var $temp = $("<input>");
+				$("body").append($temp);
+				$temp.val(texto).select();
+				document.execCommand("copy");
+				$temp.remove();
+			});
+		});
+	</script>
+
+    <title>Triagem</title>
+</head>
+<body>
+    
+    <main class="main">
+        <aside class="sidebar">
+          <nav class="nav">
+            <ul>
+              <li><a href="#">Apresentação</a></li>
+              <li><a href="#">Verificações</a></li>
+              <li><a href="#">Lentidão</a></li>
+              <li><a href="#">Sem Conexão</a></li>
+              <li><a href="#">Massivo</a></li>
+              <li><a href="#">Financeiro</a></li>
+              <li><a href="#">CS</a></li>
+              <li><a href="#">Outros</a></li>
+            </ul>
+          </nav>
+        </aside>
+    </main>
+    
+    <section>
+        
+        <h1> Apresentação </h1>
+        <div class="buttons">
+            <div class="container">
+                <a href="#" class="button1 btn effect01"><span>Olá, Bom Dia! Como poço lhe ajudar? </span></a>
+                <a href="#" class="button1 btn effect01"><span>Olá, Boa Tarde! Como poço lhe ajudar? </span></a>
+                <a href="#" class="button1 btn effect01"><span>Olá, Boa Noite! Como poço lhe ajudar? </span></a>
+            </div>
+
+            <div class="container">
+                <a href="#" class="button1 btn effect01"><span>Olá, Tudo certo! como posso ajudar </span></a>
+                <a href="#" class="button1 btn effect01"><span>Olá, Me desculpe pela demora! como posso ajudar? </span></a>
+            </div>
+          </div>
+    </section>
+
+    <section>
+        <h1> Verificações </h1>
+        <div class="buttons">
+            <div class="container">
+                <a href="/index.html" class="button1 btn effect01"><span>Bem pelo que verifiquei você não está disponível no momento agora, vou finalizar este atendimento quando puder entre em contato para nos verificarmos melhor! </span></a>
+                <a href="#" class="button1 btn effect01"><span>Olá, Boa Noite! Como poço lhe ajudar? </span></a>
+            </div>
+            <div class="container">
+                <a href="#" class="button1 btn effect01"><span>Olá, Tudo certo! como posso ajudar </span></a>
+                <a href="#" class="button1 btn effect01"><span>Olá, Tudo certo! como posso ajudar </span></a>
+            </div>
+          </div>
+    </section>
+</body>
+</html>
