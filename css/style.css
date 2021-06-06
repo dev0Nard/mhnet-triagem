@@ -1,20 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Odibee Sans', cursive;
 }
 
 html {
-  font-family: Arial;
-  font-size: 16px;
-  background: #000000;
+  font-size: 18px;
+  background-color: #EEE;
 }
 
 .sidebar {
   position: fixed;
-  width: 18%;
+  width: 20%;
   height: 100%;
-  background: #25252534;
+  background: #000000;
   font-size: 0.65em;
 }
 
@@ -73,15 +74,17 @@ html {
 section {
   /*btn_background*/
   /*btn_text*/
-  /*highlight*/
 }
 
 section h1 {
+  letter-spacing: 0.1em;
   text-align: right;
   margin: 0 auto;
   padding: 20px;
-  color: #09ff00;
+  color: #b3b3b3;
   font-size: 32px;
+  text-shadow: 1px 3px 4px black;
+  text-transform: uppercase;
 }
 
 section .buttons {
@@ -89,6 +92,8 @@ section .buttons {
   width: 100%;
   height: 100%;
   padding: 2em 0em;
+  -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 section .container {
@@ -128,11 +133,11 @@ section .btn:hover {
 }
 
 section .effect01 {
-  color: #09ff00;
+  color: #020202;
   border: 0.07px solid #1eff00;
   -webkit-box-shadow: 0px 0px 0px 1px #000 inset;
           box-shadow: 0px 0px 0px 1px #000 inset;
-  background-color: #000;
+  background-color: #e6e6e6;
   overflow: hidden;
   position: relative;
   -webkit-transition: all 0.3s ease-in-out;
@@ -140,8 +145,8 @@ section .effect01 {
 }
 
 section .effect01:hover {
-  border: 1px solid white;
-  background-color: #fafffa;
+  border: 1px solid #00d9ff;
+  background-color: #d8d8d8;
   -webkit-box-shadow: 0px 0px 0px 4px #EEE inset;
           box-shadow: 0px 0px 0px 4px #EEE inset;
 }
@@ -154,32 +159,5 @@ section .effect01 span {
 
 section .effect01:hover span {
   color: black;
-}
-
-section .effect01:after {
-  background: #FFF;
-  border: 0px solid #000;
-  content: "";
-  height: 155px;
-  left: -75px;
-  opacity: .8;
-  position: absolute;
-  top: -50px;
-  -webkit-transform: rotate(35deg);
-  transform: rotate(35deg);
-  width: 50px;
-  -webkit-transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  /*easeOutCirc*/
-  z-index: 1;
-}
-
-section .effect01:hover:after {
-  background: #FFF;
-  border: 20px solid #000;
-  opacity: 0;
-  left: 120%;
-  -webkit-transform: rotate(40deg);
-  transform: rotate(40deg);
 }
 /*# sourceMappingURL=style.css.map */
