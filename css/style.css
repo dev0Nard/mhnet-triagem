@@ -1,21 +1,20 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
-@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Odibee Sans', cursive;
+  font-family: 'Barlow', sans-serif;
 }
 
 html {
   font-size: 18px;
-  background-color: #EEE;
+  background-color: #1a1a1a;
 }
 
 .sidebar {
   position: fixed;
   width: 20%;
   height: 100%;
-  background: #000000;
+  background: #222222;
   font-size: 0.65em;
 }
 
@@ -43,7 +42,7 @@ html {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.4em;
-  color: #2bff00;
+  color: #ffffff;
   display: block;
   -webkit-transition: all ease-out 300ms;
   transition: all ease-out 300ms;
@@ -60,15 +59,15 @@ html {
   position: absolute;
   width: 100%;
   height: 0.2em;
-  background: white;
+  background: #1a1a1a;
   left: 0;
   bottom: 0;
-  background-image: -webkit-gradient(linear, left top, right top, from(#9dff00), to(#00ca4e));
-  background-image: linear-gradient(to right, #9dff00, #00ca4e);
+  background-image: -webkit-gradient(linear, left top, right top, from(#0059ff), to(#00ffdd));
+  background-image: linear-gradient(to right, #0059ff, #00ffdd);
 }
 
 .nav ul :hover {
-  background: #11ca00;
+  background: #00ca97;
 }
 
 section {
@@ -133,11 +132,11 @@ section .btn:hover {
 }
 
 section .effect01 {
-  color: #020202;
-  border: 0.07px solid #1eff00;
+  color: #ffffff;
+  border: 0.07px solid #0084ff;
   -webkit-box-shadow: 0px 0px 0px 1px #000 inset;
           box-shadow: 0px 0px 0px 1px #000 inset;
-  background-color: #e6e6e6;
+  background-color: #2a393b;
   overflow: hidden;
   position: relative;
   -webkit-transition: all 0.3s ease-in-out;
@@ -145,7 +144,7 @@ section .effect01 {
 }
 
 section .effect01:hover {
-  border: 1px solid #00d9ff;
+  border: 1px solid #10363d;
   background-color: #d8d8d8;
   -webkit-box-shadow: 0px 0px 0px 4px #EEE inset;
           box-shadow: 0px 0px 0px 4px #EEE inset;
