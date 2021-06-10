@@ -138,3 +138,19 @@ section{
         color: rgb(0, 0, 0);
       }
 }
+
+.quemfez{
+  margin: 20px;
+  color: #0059ff;
+  text-align: end;
+  h3{
+    font-size: 18px;
+    color: #fafcfc;
+  }
+  p {
+    color: #757575;
+    span{
+      color: #0066ff;
+    }
+  }
+}

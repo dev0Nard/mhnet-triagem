@@ -159,4 +159,23 @@ section .effect01 span {
 section .effect01:hover span {
   color: black;
 }
+
+.quemfez {
+  margin: 20px;
+  color: #0059ff;
+  text-align: end;
+}
+
+.quemfez h3 {
+  font-size: 18px;
+  color: #fafcfc;
+}
+
+.quemfez p {
+  color: #757575;
+}
+
+.quemfez p span {
+  color: #0066ff;
+}
 /*# sourceMappingURL=style.css.map */
